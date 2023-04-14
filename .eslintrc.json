@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-unused-expressions": "off",
+    "no-shadow": "off",
+    "import/no-duplicates": "off",
+    "no-template-curly-in-string": "off",
+    "jest/no-mocks-import": "off",
+    "@typescript-eslint/no-unused-expressions": ["error"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.tsx",
+          "**/*.test.ts"
+        ]
+      }
+    ],
+    "jest/no-standalone-expect": [
+      "off",
+      {
+        "additionalTestBlockFunctions": ["test.page"]
+      }
+    ]
+  }
+}

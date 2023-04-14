@@ -1,0 +1,76 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@craco/craco": "^6.4.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "antd": "^4.18.2",
+    "auth0-js": "^9.19.0",
+    "autoprefixer": "^10.4.1",
+    "axios": "^0.26.1",
+    "chart.js": "^3.7.1",
+    "classnames": "^2.3.1",
+    "craco-less": "^2.0.0",
+    "craco-plugin-env": "^1.0.4",
+    "express": "^4.17.3",
+    "formik": "^2.2.9",
+    "postcss": "^8.4.5",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-dom": "^17.0.2",
+    "react-intl": "^5.24.8",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^3.0.11",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "extract": "formatjs extract",
+    "check:all": "yarn check:lint && yarn check:type && yarn check:test",
+    "check:test": "jest --coverage",
+    "check:test:watch": "jest --watch",
+    "check:lint": "lint -d ./src",
+    "check:type": "tsc --noEmit --composite false --declarationMap false",
+    "dev": "export HTTPS=true&&SSL_CRT_FILE=cert.pem&&SSL_KEY_FILE=key.pem craco start",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^4.8.3",
+    "@types/auth0-js": "^9.14.6",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/styled-components": "^5.1.19",
+    "babel-plugin-formatjs": "^10.3.19"
+  }
+}

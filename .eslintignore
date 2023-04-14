@@ -1,0 +1,8 @@
+dist/
+node_modules/
+public/
+infra
+.cache/
+.certs/
+*.yml
+*.md
