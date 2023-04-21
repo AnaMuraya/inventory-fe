@@ -1,0 +1,23 @@
+{
+  "primary": "#00539C",
+  "secondary": "#757575",
+  "link": "#008294",
+  "white": "#FFFFFF",
+  "black": "#000000",
+  "borderColor": "#F0F0F0",
+
+  "red6": "#ED3124",
+
+  "blue1": "#E3F8FF",
+  "blue7": "#006EC2",
+
+  "gray1": "#F6F7F8",
+  "gray2": "#E6E6E6",
+  "gray3": "#D9D9D9",
+  "gray4": "#EEEEF0",
+  "gray5": "#A2A2A2",
+  "gray6": "#757575",
+  "gray7": "#212121",
+  "gray8": "#58595B",
+  "gray9": "#252526"
+}
